@@ -11,18 +11,14 @@ public class Fahrzeug {
     private double verbrauch;
     private String schadstoffBelastung;
     private String versicherung;
-    private double grundtraif;
+    private double grundtarif;
     private boolean verfuegbar;
     private int tueren;
     private double leistung;
 
-    public Fahrzeug(String kennzeichen, String typ,
-                    double kmStand, String treibstoff,
-                    Date alter, boolean klimaanlage,
-                    boolean sitzheitzung, double verbrauch,
-                    String schadstoffBelastung, String versicherung,
-                    double grundtarif, boolean verfuegbarkeit,
-                    int tueren, double leistung) {
+    public Fahrzeug(String kennzeichen, String typ, double kmStand, String treibstoff, Date alter, boolean klimaanlage,
+                    boolean sitzheitzung, double verbrauch, String schadstoffBelastung, String versicherung,
+                    double grundtarif, boolean verfuegbarkeit, int tueren, double leistung) {
         this.kennzeichen = kennzeichen;
         this.typ = typ;
         this.kmStand = kmStand;
@@ -33,7 +29,7 @@ public class Fahrzeug {
         this.verbrauch = verbrauch;
         this.schadstoffBelastung = schadstoffBelastung;
         this.versicherung = versicherung;
-        this.grundtraif = grundtarif;
+        this.grundtarif = grundtarif;
         this.verfuegbar = verfuegbarkeit;
         this.tueren = tueren;
         this.leistung = leistung;
@@ -119,12 +115,12 @@ public class Fahrzeug {
         this.versicherung = versicherung;
     }
 
-    public double getGrundtraif() {
-        return grundtraif;
+    public double getGrundtarif() {
+        return grundtarif;
     }
 
-    public void setGrundtraif(double grundtraif) {
-        this.grundtraif = grundtraif;
+    public void setGrundtarif(double grundtarif) {
+        this.grundtarif = grundtarif;
     }
 
     public boolean isVerfuegbar() {

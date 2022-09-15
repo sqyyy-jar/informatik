@@ -6,9 +6,7 @@ public class Kunde {
     private String addresse;
     private String telefon;
 
-    public Kunde(int kundenNummer, String vorname,
-                 String nachname, String email,
-                 String addresse, String telefon) {
+    public Kunde(int kundenNummer, String vorname, String nachname, String email, String addresse, String telefon) {
         this.kundenNummer = kundenNummer;
         this.vorname = vorname;
         this.nachname = nachname;

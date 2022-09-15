@@ -3,17 +3,11 @@ import java.util.Date;
 public class Pkw extends Fahrzeug {
     private double kofferraumGroesse;
 
-    public Pkw(String kennzeichen, String typ,
-               double kmStand, String treibstoff,
-               Date alter, boolean klimaanlage,
-               boolean sitzheitzung, double verbrauch,
-               String schadstoffBelastung, String versicherung,
-               double grundtarif, boolean verfuegbarkeit,
-               int tueren, double leistung,
-               double kofferraumGroesse) {
-        super(kennzeichen, typ, kmStand, treibstoff, alter, klimaanlage,
-             sitzheitzung, verbrauch, schadstoffBelastung, versicherung,
-             grundtarif, verfuegbarkeit, tueren, leistung);
+    public Pkw(String kennzeichen, String typ, double kmStand, String treibstoff, Date alter, boolean klimaanlage,
+               boolean sitzheitzung, double verbrauch, String schadstoffBelastung, String versicherung,
+               double grundtarif, boolean verfuegbarkeit, int tueren, double leistung, double kofferraumGroesse) {
+        super(kennzeichen, typ, kmStand, treibstoff, alter, klimaanlage, sitzheitzung, verbrauch, schadstoffBelastung,
+                versicherung, grundtarif, verfuegbarkeit, tueren, leistung);
         this.kofferraumGroesse = kofferraumGroesse;
     }
 

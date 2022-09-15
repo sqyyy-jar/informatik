@@ -14,12 +14,9 @@ public class Rechnung {
     private double betrag;
     private double enthalteneMehrwertsteuer;
 
-    public Rechnung(int rechnungsNummer, int kundenNummer,
-                    String kennzeichen, Date mietStart,
-                    Date mietEnde, Date rechnungsbegleichung,
-                    double startKm, double endKm,
-                    double km, int tage,
-                    double betrag, double enthalteneMehrwertsteuer) {
+    public Rechnung(int rechnungsNummer, int kundenNummer, String kennzeichen, Date mietStart, Date mietEnde,
+                    Date rechnungsbegleichung, double startKm, double endKm, double km, int tage, double betrag,
+                    double enthalteneMehrwertsteuer) {
         this.rechnungsNummer = rechnungsNummer;
         this.kundenNummer = kundenNummer;
         this.kennzeichen = kennzeichen;
