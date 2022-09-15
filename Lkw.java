@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class Lkw extends Fahrzeug {
     private double laderaum;
     private double nutzlast;
@@ -15,7 +17,7 @@ public class Lkw extends Fahrzeug {
                double laderaum, double nutzlast,
                double kmPreis, int freieKmProTag,
                String fuehrerscheinAnforderung) {
-        this(kennzeichen, typ, kmStand, treibstoff, alter, klimaanlage,
+        super(kennzeichen, typ, kmStand, treibstoff, alter, klimaanlage,
              sitzheitzung, verbrauch, schadstoffBelastung, versicherung,
              grundtarif, verfuegbarkeit, tueren, leistung);
         this.laderaum = laderaum;

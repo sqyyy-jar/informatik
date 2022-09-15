@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class Pkw extends Fahrzeug {
     private double kofferraumGroesse;
 
@@ -9,7 +11,7 @@ public class Pkw extends Fahrzeug {
                double grundtarif, boolean verfuegbarkeit,
                int tueren, double leistung,
                double kofferraumGroesse) {
-        this(kennzeichen, typ, kmStand, treibstoff, alter, klimaanlage,
+        super(kennzeichen, typ, kmStand, treibstoff, alter, klimaanlage,
              sitzheitzung, verbrauch, schadstoffBelastung, versicherung,
              grundtarif, verfuegbarkeit, tueren, leistung);
         this.kofferraumGroesse = kofferraumGroesse;

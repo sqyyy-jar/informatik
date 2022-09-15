@@ -33,7 +33,7 @@ public class Fahrzeug {
         this.verbrauch = verbrauch;
         this.schadstoffBelastung = schadstoffBelastung;
         this.versicherung = versicherung;
-        this.grundtarif = grundtarif;
+        this.grundtraif = grundtarif;
         this.verfuegbar = verfuegbarkeit;
         this.tueren = tueren;
         this.leistung = leistung;
